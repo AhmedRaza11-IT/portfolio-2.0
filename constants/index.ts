@@ -92,17 +92,12 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/me__ahmed__raza?igsh=bG85c2U3bTZ5djdm",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://x.com/_sanidhyy",
+    link: "https://www.facebook.com/share/1CRg8mC8Nm/",
   },
 ] as const;
 
@@ -308,12 +303,12 @@ export const FOOTER_DATA = [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://www.instagram.com/me__ahmed__raza?igsh=bG85c2U3bTZ5djdm",
       },
       {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://x.com/_sanidhyy",
+        name: "Facebook",
+        icon: FaFacebook,
+        link: "https://www.facebook.com/share/1CRg8mC8Nm/",
       },
       {
         name: "Linkedin",
