@@ -78,10 +78,10 @@ export const Contact = () => {
               <div>
                 <p className="text-gray-400 text-xs uppercase tracking-wider font-semibold">Email</p>
                 <a
-                  href="mailto:an3698329@gmail.com"
+                  href="mailto:ahmed.raazza22@gmail.com"
                   className="text-white hover:text-cyan-400 font-medium transition-colors"
                 >
-                  an3698329@gmail.com
+                  ahmed.raazza22@gmail.com
                 </a>
               </div>
             </div>

@@ -12,7 +12,7 @@ const INFO_ITEMS = [
   { label: "Degree", value: "Bachelor's in IT" },
   { label: "Experience", value: "2 Years" },
   { label: "Phone", value: "03222289855" },
-  { label: "Email", value: "an3698329@gmail.com" },
+  { label: "Email", value: "ahmed.raazza22@gmail.com" },
   { label: "Address", value: "North Nazimabad, Karachi, Pakistan" },
   { label: "Freelance", value: "Available" },
 ];
@@ -110,7 +110,7 @@ export const AboutContent = () => {
         {/* Buttons */}
         <div className="flex flex-wrap gap-4 mt-2">
           <Link
-            href="mailto:an3698329@gmail.com"
+            href="mailto:ahmed.raazza22@gmail.com"
             className="px-8 py-3 rounded-full bg-gradient-to-r from-purple-600 to-cyan-500 text-white font-semibold text-sm hover:opacity-90 hover:scale-105 transition-all duration-300 shadow-lg shadow-purple-500/30"
           >
             Hire Me

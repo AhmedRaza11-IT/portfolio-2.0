@@ -63,9 +63,9 @@ export const Footer = () => {
               Get in Touch
             </h3>
             <div className="flex flex-col gap-3 text-sm text-gray-300">
-              <a href="mailto:an3698329@gmail.com" className="flex items-center gap-3 hover:text-cyan-400 transition-colors">
+              <a href="mailto:ahmed.raazza22@gmail.com" className="flex items-center gap-3 hover:text-cyan-400 transition-colors">
                 <FaEnvelope className="text-purple-400" />
-                <span>an3698329@gmail.com</span>
+                <span>ahmed.raazza22@gmail.com</span>
               </a>
               <a href="tel:03222289855" className="flex items-center gap-3 hover:text-cyan-400 transition-colors">
                 <FaPhoneAlt className="text-purple-400" />
