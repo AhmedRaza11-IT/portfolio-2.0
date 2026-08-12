@@ -51,9 +51,11 @@ export const HeroContent = () => {
 
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href="/New Resume.pdf"
+          download="Ahmed_Raza_Resume.pdf"
+          className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn more
+          Download CV
         </motion.a>
       </div>
 
