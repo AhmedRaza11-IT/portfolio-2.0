@@ -99,6 +99,16 @@ export const SOCIALS = [
     icon: FaFacebook,
     link: "https://www.facebook.com/share/1CRg8mC8Nm/",
   },
+  {
+    name: "Linkedin",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/ahmed-raza-38795b17b/",
+  },
+  {
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/AhmedRaza11-IT",
+  },
 ] as const;
 
 export const FRONTEND_SKILL = [
@@ -288,7 +298,7 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/AhmedRaza11-IT",
       },
       {
         name: "Discord",
@@ -313,7 +323,7 @@ export const FOOTER_DATA = [
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://www.linkedin.com/in/ahmed-raza-38795b17b/",
       },
     ],
   },
