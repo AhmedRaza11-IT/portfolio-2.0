@@ -97,7 +97,7 @@ export const SOCIALS = [
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://www.facebook.com/share/1CRg8mC8Nm/",
+    link: "https://www.facebook.com/Ahmedraza1019/",
   },
   {
     name: "Linkedin",
@@ -318,7 +318,7 @@ export const FOOTER_DATA = [
       {
         name: "Facebook",
         icon: FaFacebook,
-        link: "https://www.facebook.com/share/1CRg8mC8Nm/",
+        link: "https://www.facebook.com/Ahmedraza1019/",
       },
       {
         name: "Linkedin",
