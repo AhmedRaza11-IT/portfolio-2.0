@@ -13,17 +13,23 @@ import type { Points as PointsType } from "three";
 export const StarBackground = (props: PointsInstancesProps) => {
   const ref = useRef<PointsType | null>(null);
   
-  // Reduce points count on smaller screen sizes to boost mobile GPU/CPU performance
+  // Points float count must be divisible by 3 (x, y, z per point)
   const count = useMemo(() => {
     if (typeof window !== "undefined" && window.innerWidth < 768) {
-      return 1500;
+      return 1500; // 500 points (500 * 3)
     }
-    return 3500;
+    return 3600; // 1200 points (1200 * 3)
   }, []);
 
   const sphere = useMemo(() => {
     const positions = new Float32Array(count);
     random.inSphere(positions, { radius: 1.2 });
+    // Sanitize any potential NaN fallback values
+    for (let i = 0; i < positions.length; i++) {
+      if (isNaN(positions[i])) {
+        positions[i] = 0;
+      }
+    }
     return positions;
   }, [count]);
 
