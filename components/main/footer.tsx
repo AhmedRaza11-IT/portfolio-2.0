@@ -112,7 +112,7 @@ export const Footer = () => {
               <RxInstagramLogo className="w-5 h-5" />
             </Link>
             <Link
-              href="https://www.facebook.com/share/1CRg8mC8Nm/"
+              href="https://www.facebook.com/Ahmedraza1019/"
               target="_blank"
               rel="noreferrer noopener"
               className="w-10 h-10 rounded-full bg-purple-900/40 border border-purple-500/30 flex items-center justify-center text-white hover:bg-purple-600 hover:scale-110 transition-all shadow-md"
