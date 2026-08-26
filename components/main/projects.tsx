@@ -141,7 +141,7 @@ const SHOWCASE_PROJECTS: Project[] = [
   },
 ];
 
-const CATEGORIES: { label: CategoryType; icon: React.ElementType }[] = [
+const CATEGORIES: { label: CategoryType; icon: React.ComponentType<{ className?: string }> }[] = [
   { label: "All", icon: FaGlobe },
   { label: "CRM & Web Apps", icon: FaServer },
   { label: "Brand Websites", icon: FaLaptopCode },
